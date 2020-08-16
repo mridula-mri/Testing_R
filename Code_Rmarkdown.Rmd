@@ -1,0 +1,30 @@
+---
+title: "Code_Rmarkdown"
+author: "Mridula"
+date: "8/17/2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is my first **R Markdown document**. 
+
+Let's print *Hello World*
+```{Rcpp code, echo=TRUE}
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+  cout<<"Hello World\n";
+  return 0;
+}
+```
+
+
